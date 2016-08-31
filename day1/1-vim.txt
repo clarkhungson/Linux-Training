@@ -1,0 +1,24 @@
+Hello vim!
+
+- Insert mode: press "i" button
+- Quit without saving: ESC + ":q"
+- Quit woth saving: ESC + ":wq"
+- In command mode:
+	+ dd: delete current line
+	+ dw: delete to end of word
+	+ o: insert text after the current line
+	+ d0: delete to begining of line
+
+- Moving arounf:
+	+ h l j k: move to :left, right, down, up
+	+ w, b: move to one word forward, backward
+	+ $: takes you to the end of line
+	+ enter: takes the cursor the begining of next line
+
+- Copy, cut, paste, undo, repeat
+	+ yy: copy current line to buffer
+	+ nyy: where n is number of line
+	+ p: paste ............... to the line below
+	+ P: paste ............... to the line above
+	+ u: undo
+	+ .: repeat the last command
