@@ -1,0 +1,4 @@
+test: output.o input.o main.o
+	gcc -o $@ $^
+clean:
+	rm *.o test
